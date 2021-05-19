@@ -32,6 +32,7 @@
     display: flex;
     justify-content: center;
     height: 200px;
+    margin-bottom: 25px;
   }
   .text-container {
     text-align: center;
@@ -39,5 +40,9 @@
   .paragraph-container {
     line-height: 40px;
     text-align: center;
+  }
+  .flower-girl-image {
+    width: 300px;
+    height: 200px;
   }
 }

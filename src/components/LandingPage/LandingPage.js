@@ -19,7 +19,7 @@ function LandingPage() {
       </div>
 
       <div className="photo-container">
-        <img src={FlowerGirl} alt="flower girl" />
+        <img className="flower-girl-image" src={FlowerGirl} alt="flower girl" />
       </div>
     </div>
   );
