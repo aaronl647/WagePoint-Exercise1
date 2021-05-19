@@ -1,0 +1,13 @@
+.image-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .image-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

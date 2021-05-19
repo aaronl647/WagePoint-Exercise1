@@ -1,0 +1,11 @@
+.navbar-container {
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+}

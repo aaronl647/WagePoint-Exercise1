@@ -1,0 +1,43 @@
+.landingPage-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text-container {
+  width: 350px;
+}
+
+.title-heading {
+  font-family: "EB Garamond", serif;
+  color: rgb(92, 99, 178);
+  font-weight: 400;
+  font-size: 36px;
+  font-style: normal;
+  width: 350px;
+}
+
+.paragraph-container {
+  margin-top: 10px;
+  text-align: left;
+  line-height: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .landingPage-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .photo-container {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+  }
+  .text-container {
+    text-align: center;
+  }
+  .paragraph-container {
+    line-height: 40px;
+    text-align: center;
+  }
+}
