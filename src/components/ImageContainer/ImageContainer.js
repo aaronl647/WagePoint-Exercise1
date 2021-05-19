@@ -1,6 +1,10 @@
 import React from "react";
 import ImageItem from "../ImageItem/ImageItem";
 import "./ImageContainer.css";
+import CreditCard from "../../images/creditcard.png";
+import CheckList from "../../images/checklist.png";
+import Calculator from "../../images/calculator.png";
+import Heart from "../../images/heart.png";
 
 /* I used another functional component to take in all the ImageItems to make it easier to add/remove images in the future. */
 
@@ -9,26 +13,18 @@ import "./ImageContainer.css";
 function ImageContainer() {
   return (
     <div className="image-container">
+      <ImageItem src={CreditCard} alt="credit card" text="Direct deposit." />
       <ImageItem
-        src="assets/images/creditcard.png"
-        alt="credit card"
-        text="Direct deposit."
-      />
-      <ImageItem
-        src="assets/images/checklist.png"
+        src={CheckList}
         alt="checklist"
         text="Online access to paystubs."
       />
       <ImageItem
-        src="assets/images/calculator.png"
+        src={Calculator}
         alt="calculator"
         text="Automated payroll taxes."
       />
-      <ImageItem
-        src="assets/images/heart.png"
-        alt="heart"
-        text="Friendly, caring support."
-      />
+      <ImageItem src={Heart} alt="heart" text="Friendly, caring support." />
     </div>
   );
 }

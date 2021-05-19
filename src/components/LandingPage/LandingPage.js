@@ -1,5 +1,6 @@
 import React from "react";
 import "./LandingPage.css";
+import FlowerGirl from "../../images/flowergirl.png";
 
 function LandingPage() {
   return (
@@ -18,7 +19,7 @@ function LandingPage() {
       </div>
 
       <div className="photo-container">
-        <img src="assets/images/flowergirl.png" alt="flower girl" />
+        <img src={FlowerGirl} alt="flower girl" />
       </div>
     </div>
   );
