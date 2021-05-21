@@ -1,6 +1,6 @@
 # WagePoint - Exercise 1
 
-Demo of the mock up page can be found here: https://wagepoint-exercise1.herokuapp.com/
+Demo of the mock up page can be found [here](https://wagepoint-exercise1.herokuapp.com/).
 
 ## Available Scripts
 
